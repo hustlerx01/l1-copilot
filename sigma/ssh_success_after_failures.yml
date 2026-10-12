@@ -1,0 +1,18 @@
+title: SSH Successful Login After Brute Force
+id: 7c1d3a2e-5b1f-4c7e-9a10-1a2b3c4d5e03
+status: experimental
+description: Accepted login from an IP that produced failed passwords in the prior 15 minutes - possible compromise.
+author: Ansar Shaikh (hustlerx01)
+date: 2026-10-11
+tags: [attack.initial_access, attack.t1078, attack.t1110]
+logsource: {product: linux, service: sshd}
+detection:
+  failed:
+    - 'Failed password for'
+  success:
+    - 'Accepted password for'
+    - 'Accepted publickey for'
+  condition: failed | count() by src_ip > 5 and success
+  timeframe: 15m
+falsepositives: [User recovering from forgotten password]
+level: high

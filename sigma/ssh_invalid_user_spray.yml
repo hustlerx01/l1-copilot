@@ -1,0 +1,15 @@
+title: SSH Password Spray - Many Invalid Usernames From One Source
+id: 7c1d3a2e-5b1f-4c7e-9a10-1a2b3c4d5e02
+status: experimental
+description: Detects >=5 distinct non-existent usernames tried from one IP within 10 minutes.
+author: Ansar Shaikh (hustlerx01)
+date: 2026-10-11
+tags: [attack.credential_access, attack.t1110.003]
+logsource: {product: linux, service: sshd}
+detection:
+  selection:
+    - 'Invalid user'
+  condition: selection | count(user) by src_ip >= 5
+  timeframe: 10m
+falsepositives: [Internal username typos (low distinct count)]
+level: medium
