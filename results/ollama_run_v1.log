@@ -1,0 +1,69 @@
+{
+  "tp": 4,
+  "fp": 2,
+  "fn": 53,
+  "tn": 41,
+  "precision": 0.667,
+  "recall": 0.07,
+  "f1": 0.127,
+  "accuracy": 0.45,
+  "mitre_accuracy_on_tp": 0.0,
+  "engine": "ollama:qwen2.5:1.5b",
+  "n": 100,
+  "seconds": 203.28
+}
+MISS {'id': 'lab-001', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external scan'}
+MISS {'id': 'lab-002', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-003', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'sudo by non-admin'}
+MISS {'id': 'lab-006', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-007', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external failures vs real account'}
+MISS {'id': 'lab-008', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external scan'}
+MISS {'id': 'lab-009', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external scan'}
+MISS {'id': 'lab-010', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external failures vs real account'}
+MISS {'id': 'lab-011', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'compromised internal host brute forcing admin'}
+MISS {'id': 'lab-013', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'low-and-slow brute force'}
+MISS {'id': 'lab-015', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-018', 'truth': 'false_positive', 'pred': 'true_positive', 'note': 'normal internal login'}
+MISS {'id': 'lab-019', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-020', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-024', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'persistence account'}
+MISS {'id': 'lab-028', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-031', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external failures vs real account'}
+MISS {'id': 'lab-032', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-033', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'injection-like username + brute force'}
+MISS {'id': 'lab-034', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-040', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'staff login from external (no VPN) - suspicious'}
+MISS {'id': 'lab-041', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-042', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'admin login from unknown external IP off-hours'}
+MISS {'id': 'lab-043', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external failures vs real account'}
+MISS {'id': 'lab-045', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-046', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'compromised internal host brute forcing admin'}
+MISS {'id': 'lab-049', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-050', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'sudo by non-admin'}
+MISS {'id': 'lab-051', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'staff login from external (no VPN) - suspicious'}
+MISS {'id': 'lab-053', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-056', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-057', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-060', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'sudo by non-admin'}
+MISS {'id': 'lab-061', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-063', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-064', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-065', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'staff login from external (no VPN) - suspicious'}
+MISS {'id': 'lab-067', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'admin login from unknown external IP off-hours'}
+MISS {'id': 'lab-068', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'sudo by non-admin'}
+MISS {'id': 'lab-070', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'compromised internal host brute forcing admin'}
+MISS {'id': 'lab-072', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external failures vs real account'}
+MISS {'id': 'lab-073', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external user enumeration/spray'}
+MISS {'id': 'lab-074', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-077', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-078', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'low-and-slow brute force'}
+MISS {'id': 'lab-079', 'truth': 'false_positive', 'pred': 'true_positive', 'note': 'Ansar via approved travel VPN egress 192.0.2.10'}
+MISS {'id': 'lab-080', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external failures vs real account'}
+MISS {'id': 'lab-081', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-086', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-089', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}
+MISS {'id': 'lab-092', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'persistence account'}
+MISS {'id': 'lab-093', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external scan'}
+MISS {'id': 'lab-096', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'low-and-slow brute force'}
+MISS {'id': 'lab-097', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'persistence account'}
+MISS {'id': 'lab-099', 'truth': 'true_positive', 'pred': 'false_positive', 'note': 'external brute force'}

@@ -1,0 +1,340 @@
+{
+  "tp": 6,
+  "fp": 3,
+  "fn": 51,
+  "tn": 40,
+  "precision": 0.667,
+  "recall": 0.105,
+  "f1": 0.182,
+  "accuracy": 0.46,
+  "mitre_accuracy_on_tp": 0.0,
+  "engine": "ollama:qwen2.5:1.5b",
+  "n": 100,
+  "seconds": 141.88,
+  "misses": [
+    {
+      "id": "lab-001",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external scan"
+    },
+    {
+      "id": "lab-002",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-006",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-007",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external failures vs real account"
+    },
+    {
+      "id": "lab-008",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external scan"
+    },
+    {
+      "id": "lab-009",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external scan"
+    },
+    {
+      "id": "lab-010",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external failures vs real account"
+    },
+    {
+      "id": "lab-011",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "compromised internal host brute forcing admin"
+    },
+    {
+      "id": "lab-013",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "low-and-slow brute force"
+    },
+    {
+      "id": "lab-015",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-019",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-020",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-024",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "persistence account"
+    },
+    {
+      "id": "lab-028",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-031",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external failures vs real account"
+    },
+    {
+      "id": "lab-032",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-033",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "injection-like username + brute force"
+    },
+    {
+      "id": "lab-034",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-038",
+      "truth": "false_positive",
+      "pred": "true_positive",
+      "note": "admin sudo"
+    },
+    {
+      "id": "lab-040",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "staff login from external (no VPN) - suspicious"
+    },
+    {
+      "id": "lab-041",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-042",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "admin login from unknown external IP off-hours"
+    },
+    {
+      "id": "lab-043",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external failures vs real account"
+    },
+    {
+      "id": "lab-044",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "admin login from unknown external IP off-hours"
+    },
+    {
+      "id": "lab-045",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-046",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "compromised internal host brute forcing admin"
+    },
+    {
+      "id": "lab-049",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-051",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "staff login from external (no VPN) - suspicious"
+    },
+    {
+      "id": "lab-053",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-055",
+      "truth": "false_positive",
+      "pred": "true_positive",
+      "note": "admin sudo"
+    },
+    {
+      "id": "lab-056",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-057",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-061",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-062",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "admin login from unknown external IP off-hours"
+    },
+    {
+      "id": "lab-063",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-064",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-065",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "staff login from external (no VPN) - suspicious"
+    },
+    {
+      "id": "lab-067",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "admin login from unknown external IP off-hours"
+    },
+    {
+      "id": "lab-070",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "compromised internal host brute forcing admin"
+    },
+    {
+      "id": "lab-072",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external failures vs real account"
+    },
+    {
+      "id": "lab-073",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external user enumeration/spray"
+    },
+    {
+      "id": "lab-074",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-077",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-078",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "low-and-slow brute force"
+    },
+    {
+      "id": "lab-080",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external failures vs real account"
+    },
+    {
+      "id": "lab-081",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-085",
+      "truth": "false_positive",
+      "pred": "true_positive",
+      "note": "admin sudo"
+    },
+    {
+      "id": "lab-086",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-089",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    },
+    {
+      "id": "lab-092",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "persistence account"
+    },
+    {
+      "id": "lab-093",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external scan"
+    },
+    {
+      "id": "lab-096",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "low-and-slow brute force"
+    },
+    {
+      "id": "lab-097",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "persistence account"
+    },
+    {
+      "id": "lab-099",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "external brute force"
+    }
+  ]
+}

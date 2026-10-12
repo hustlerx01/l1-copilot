@@ -1,0 +1,100 @@
+{"alert_id": "lab-001", "verdict": "true_positive", "mitre": "T1046", "severity": "low", "confidence": 0.6, "reasoning": "External SSH banner probe / scan.", "engine": "mock", "flags": []}
+{"alert_id": "lab-002", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "33 failures from external 198.51.100.165.", "engine": "mock", "flags": []}
+{"alert_id": "lab-003", "verdict": "true_positive", "mitre": "T1548.003", "severity": "high", "confidence": 0.7, "reasoning": "Sudo activity by non-admin 'meena'.", "engine": "mock", "flags": []}
+{"alert_id": "lab-004", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-005", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-006", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'ubnt' from external 198.51.100.5: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-007", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "31 failures from external 198.51.100.118.", "engine": "mock", "flags": []}
+{"alert_id": "lab-008", "verdict": "true_positive", "mitre": "T1046", "severity": "low", "confidence": 0.6, "reasoning": "External SSH banner probe / scan.", "engine": "mock", "flags": []}
+{"alert_id": "lab-009", "verdict": "true_positive", "mitre": "T1046", "severity": "low", "confidence": 0.6, "reasoning": "External SSH banner probe / scan.", "engine": "mock", "flags": []}
+{"alert_id": "lab-010", "verdict": "true_positive", "mitre": "T1110.001", "severity": "medium", "confidence": 0.8, "reasoning": "11 failures from external 203.0.113.56.", "engine": "mock", "flags": []}
+{"alert_id": "lab-011", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal source, admin/automation account, low volume.", "engine": "mock", "flags": []}
+{"alert_id": "lab-012", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.85, "reasoning": "Source is the known internal vuln scanner.", "engine": "mock", "flags": []}
+{"alert_id": "lab-013", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-014", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-015", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "53 failures from external 198.51.100.180.", "engine": "mock", "flags": []}
+{"alert_id": "lab-016", "verdict": "true_positive", "mitre": "T1110.001", "severity": "medium", "confidence": 0.55, "reasoning": "Repeated failures from external IP.", "engine": "mock", "flags": []}
+{"alert_id": "lab-017", "verdict": "true_positive", "mitre": "T1110.001", "severity": "medium", "confidence": 0.55, "reasoning": "Repeated failures from external IP.", "engine": "mock", "flags": []}
+{"alert_id": "lab-018", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-019", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'oracle' from external 198.51.100.12: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-020", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'oracle' from external 198.51.100.158: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-021", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.85, "reasoning": "Source is the known internal vuln scanner.", "engine": "mock", "flags": []}
+{"alert_id": "lab-022", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-023", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal source, admin/automation account, low volume.", "engine": "mock", "flags": []}
+{"alert_id": "lab-024", "verdict": "true_positive", "mitre": "T1136.001", "severity": "high", "confidence": 0.7, "reasoning": "Local account created outside change window.", "engine": "mock", "flags": []}
+{"alert_id": "lab-025", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-026", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.55, "reasoning": "User created in maintenance window.", "engine": "mock", "flags": []}
+{"alert_id": "lab-027", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-028", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "31 failures from external 198.51.100.67.", "engine": "mock", "flags": []}
+{"alert_id": "lab-029", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal source, admin/automation account, low volume.", "engine": "mock", "flags": []}
+{"alert_id": "lab-030", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-031", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "21 failures from external 203.0.113.2.", "engine": "mock", "flags": []}
+{"alert_id": "lab-032", "verdict": "true_positive", "mitre": "T1110.001", "severity": "medium", "confidence": 0.8, "reasoning": "10 failures from external 198.51.100.99.", "engine": "mock", "flags": []}
+{"alert_id": "lab-033", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "30 failures from external 198.51.100.77.", "engine": "mock", "flags": []}
+{"alert_id": "lab-034", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'guest' from external 203.0.113.102: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-035", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-036", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-037", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.7, "reasoning": "Log fields contain prompt-injection text; attacker-controlled input, escalate.", "engine": "mock", "flags": ["prompt_injection_suspected"]}
+{"alert_id": "lab-038", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Sudo by admin/automation.", "engine": "mock", "flags": []}
+{"alert_id": "lab-039", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal typo of username.", "engine": "mock", "flags": []}
+{"alert_id": "lab-040", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.65, "reasoning": "Non-admin login from external 203.0.113.225.", "engine": "mock", "flags": []}
+{"alert_id": "lab-041", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "24 failures from external 203.0.113.36.", "engine": "mock", "flags": []}
+{"alert_id": "lab-042", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.6, "reasoning": "Admin 'ansar' logged in from external 203.0.113.47 off-hours.", "engine": "mock", "flags": []}
+{"alert_id": "lab-043", "verdict": "true_positive", "mitre": "T1110.001", "severity": "medium", "confidence": 0.8, "reasoning": "16 failures from external 198.51.100.155.", "engine": "mock", "flags": []}
+{"alert_id": "lab-044", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.6, "reasoning": "Admin 'ansar' logged in from external 198.51.100.173 off-hours.", "engine": "mock", "flags": []}
+{"alert_id": "lab-045", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'test' from external 198.51.100.223: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-046", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal source, admin/automation account, low volume.", "engine": "mock", "flags": []}
+{"alert_id": "lab-047", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.5, "reasoning": "Internal health check.", "engine": "mock", "flags": []}
+{"alert_id": "lab-048", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal typo of username.", "engine": "mock", "flags": []}
+{"alert_id": "lab-049", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'test' from external 203.0.113.199: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-050", "verdict": "true_positive", "mitre": "T1548.003", "severity": "high", "confidence": 0.7, "reasoning": "Sudo activity by non-admin 'meena'.", "engine": "mock", "flags": []}
+{"alert_id": "lab-051", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.65, "reasoning": "Non-admin login from external 198.51.100.56.", "engine": "mock", "flags": []}
+{"alert_id": "lab-052", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-053", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'ubnt' from external 203.0.113.10: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-054", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.85, "reasoning": "Source is the known internal vuln scanner.", "engine": "mock", "flags": []}
+{"alert_id": "lab-055", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Sudo by admin/automation.", "engine": "mock", "flags": []}
+{"alert_id": "lab-056", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "54 failures from external 198.51.100.117.", "engine": "mock", "flags": []}
+{"alert_id": "lab-057", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "34 failures from external 203.0.113.202.", "engine": "mock", "flags": []}
+{"alert_id": "lab-058", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal source, admin/automation account, low volume.", "engine": "mock", "flags": []}
+{"alert_id": "lab-059", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-060", "verdict": "true_positive", "mitre": "T1548.003", "severity": "high", "confidence": 0.7, "reasoning": "Sudo activity by non-admin 'www-data'.", "engine": "mock", "flags": []}
+{"alert_id": "lab-061", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'oracle' from external 198.51.100.121: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-062", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.6, "reasoning": "Admin 'ansible' logged in from external 198.51.100.41 off-hours.", "engine": "mock", "flags": []}
+{"alert_id": "lab-063", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'pi' from external 198.51.100.158: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-064", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "27 failures from external 203.0.113.149.", "engine": "mock", "flags": []}
+{"alert_id": "lab-065", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.65, "reasoning": "Non-admin login from external 203.0.113.28.", "engine": "mock", "flags": []}
+{"alert_id": "lab-066", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal source, admin/automation account, low volume.", "engine": "mock", "flags": []}
+{"alert_id": "lab-067", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.6, "reasoning": "Admin 'deploy' logged in from external 203.0.113.192 off-hours.", "engine": "mock", "flags": []}
+{"alert_id": "lab-068", "verdict": "true_positive", "mitre": "T1548.003", "severity": "high", "confidence": 0.7, "reasoning": "Sudo activity by non-admin 'rahul'.", "engine": "mock", "flags": []}
+{"alert_id": "lab-069", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal source, admin/automation account, low volume.", "engine": "mock", "flags": []}
+{"alert_id": "lab-070", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal source, admin/automation account, low volume.", "engine": "mock", "flags": []}
+{"alert_id": "lab-071", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal typo of username.", "engine": "mock", "flags": []}
+{"alert_id": "lab-072", "verdict": "true_positive", "mitre": "T1110.001", "severity": "medium", "confidence": 0.8, "reasoning": "20 failures from external 203.0.113.222.", "engine": "mock", "flags": []}
+{"alert_id": "lab-073", "verdict": "true_positive", "mitre": "T1110.003", "severity": "medium", "confidence": 0.7, "reasoning": "Invalid user 'user1' from external 198.51.100.61: username enumeration/spraying.", "engine": "mock", "flags": []}
+{"alert_id": "lab-074", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "40 failures from external 198.51.100.180.", "engine": "mock", "flags": []}
+{"alert_id": "lab-075", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Internal typo of username.", "engine": "mock", "flags": []}
+{"alert_id": "lab-076", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-077", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "28 failures from external 203.0.113.131.", "engine": "mock", "flags": []}
+{"alert_id": "lab-078", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-079", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.6, "reasoning": "Admin 'ansar' logged in from external 192.0.2.10 off-hours.", "engine": "mock", "flags": []}
+{"alert_id": "lab-080", "verdict": "true_positive", "mitre": "T1110.001", "severity": "medium", "confidence": 0.8, "reasoning": "10 failures from external 203.0.113.39.", "engine": "mock", "flags": []}
+{"alert_id": "lab-081", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "50 failures from external 203.0.113.8.", "engine": "mock", "flags": []}
+{"alert_id": "lab-082", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.5, "reasoning": "Internal health check.", "engine": "mock", "flags": []}
+{"alert_id": "lab-083", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-084", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.6, "reasoning": "Admin 'ansar' logged in from external 192.0.2.10 off-hours.", "engine": "mock", "flags": []}
+{"alert_id": "lab-085", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Sudo by admin/automation.", "engine": "mock", "flags": []}
+{"alert_id": "lab-086", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "41 failures from external 198.51.100.90.", "engine": "mock", "flags": []}
+{"alert_id": "lab-087", "verdict": "true_positive", "mitre": "T1078", "severity": "high", "confidence": 0.6, "reasoning": "Admin 'ansar' logged in from external 203.0.113.8 off-hours.", "engine": "mock", "flags": []}
+{"alert_id": "lab-088", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-089", "verdict": "true_positive", "mitre": "T1110.001", "severity": "high", "confidence": 0.8, "reasoning": "74 failures from external 198.51.100.166.", "engine": "mock", "flags": []}
+{"alert_id": "lab-090", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.85, "reasoning": "Source is the known internal vuln scanner.", "engine": "mock", "flags": []}
+{"alert_id": "lab-091", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-092", "verdict": "true_positive", "mitre": "T1136.001", "severity": "high", "confidence": 0.7, "reasoning": "Local account created outside change window.", "engine": "mock", "flags": []}
+{"alert_id": "lab-093", "verdict": "true_positive", "mitre": "T1046", "severity": "low", "confidence": 0.6, "reasoning": "External SSH banner probe / scan.", "engine": "mock", "flags": []}
+{"alert_id": "lab-094", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.55, "reasoning": "User created in maintenance window.", "engine": "mock", "flags": []}
+{"alert_id": "lab-095", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.6, "reasoning": "Sudo by admin/automation.", "engine": "mock", "flags": []}
+{"alert_id": "lab-096", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.65, "reasoning": "Single/low-count failure.", "engine": "mock", "flags": []}
+{"alert_id": "lab-097", "verdict": "true_positive", "mitre": "T1136.001", "severity": "high", "confidence": 0.7, "reasoning": "Local account created outside change window.", "engine": "mock", "flags": []}
+{"alert_id": "lab-098", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}
+{"alert_id": "lab-099", "verdict": "true_positive", "mitre": "T1110.001", "severity": "medium", "confidence": 0.8, "reasoning": "16 failures from external 198.51.100.214.", "engine": "mock", "flags": []}
+{"alert_id": "lab-100", "verdict": "false_positive", "mitre": "none", "severity": "low", "confidence": 0.7, "reasoning": "Expected login pattern.", "engine": "mock", "flags": []}

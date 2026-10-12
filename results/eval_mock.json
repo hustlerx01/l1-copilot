@@ -1,0 +1,76 @@
+{
+  "tp": 51,
+  "fp": 4,
+  "fn": 6,
+  "tn": 39,
+  "precision": 0.927,
+  "recall": 0.895,
+  "f1": 0.911,
+  "accuracy": 0.9,
+  "mitre_accuracy_on_tp": 0.98,
+  "engine": "mock",
+  "n": 100,
+  "seconds": 0.0,
+  "misses": [
+    {
+      "id": "lab-011",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "compromised internal host brute forcing admin"
+    },
+    {
+      "id": "lab-013",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "low-and-slow brute force"
+    },
+    {
+      "id": "lab-016",
+      "truth": "false_positive",
+      "pred": "true_positive",
+      "note": "CI runner on known egress, expired key"
+    },
+    {
+      "id": "lab-017",
+      "truth": "false_positive",
+      "pred": "true_positive",
+      "note": "CI runner on known egress, expired key"
+    },
+    {
+      "id": "lab-046",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "compromised internal host brute forcing admin"
+    },
+    {
+      "id": "lab-070",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "compromised internal host brute forcing admin"
+    },
+    {
+      "id": "lab-078",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "low-and-slow brute force"
+    },
+    {
+      "id": "lab-079",
+      "truth": "false_positive",
+      "pred": "true_positive",
+      "note": "Ansar via approved travel VPN egress 192.0.2.10"
+    },
+    {
+      "id": "lab-084",
+      "truth": "false_positive",
+      "pred": "true_positive",
+      "note": "Ansar via approved travel VPN egress 192.0.2.10"
+    },
+    {
+      "id": "lab-096",
+      "truth": "true_positive",
+      "pred": "false_positive",
+      "note": "low-and-slow brute force"
+    }
+  ]
+}
