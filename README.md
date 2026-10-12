@@ -44,7 +44,7 @@ docker compose run --rm triage                  # mock fallback
 docker compose --profile llm up -d ollama && docker compose run --rm triage
 ```
 
-## Results (actual runs, 2026-10-11, CPU-only box with 8 vCPU and no GPU)
+## Results (actual runs, 2026-10-11, CPU-only lab machine with 8 vCPU and no GPU)
 Positive class = `true_positive`. n = 100.
 
 | Engine | Precision | Recall | F1 | Accuracy | MITRE acc. on TP | Runtime |
@@ -53,7 +53,7 @@ Positive class = `true_positive`. n = 100.
 | Ollama qwen2.5:1.5b (Q4), prompt v1 | 0.667 | 0.070 | 0.127 | 0.45 | 0.00 | 203 s |
 | Ollama qwen2.5:1.5b (Q4), prompt v2 (verdict definitions) | 0.667 | 0.105 | 0.182 | 0.46 | 0.00 | 142 s |
 
-Raw outputs are in `results/`. Not yet measured: llama3.1:8b or larger models. The box had about 2 GB free RAM, so I only ran the 1.5B model.
+Raw outputs are in `results/`. Not yet measured: llama3.1:8b or larger models. My lab machine had about 2 GB free RAM, so I only ran the 1.5B model.
 
 **Where the misses are.** The mock misses all 10 "hard" cases on purpose. Those cases need context that isn't in the alert: an internal host that has been compromised, a low-and-slow brute force, and travel-VPN or CI egress IPs. The 1.5B LLM flags 82/100 alerts as `none`/benign. It mixes up the security meaning of "false positive" with "the attack failed", for example reasoning that a brute-force attempt is "a false positive scenario" because the user doesn't exist.
 
